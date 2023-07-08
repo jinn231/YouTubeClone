@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+#youtube {
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu{
+    padding: 10px;
+    border-radius:20px;
+}
+
+.menu__bar{
+    width: 22px;
+    background: black;
+    height: 1px;
+    margin: 5px 0;
+}
+
+.menu:hover{
+    background-color: rgb(197, 203, 207);
+}
+
+#search__input {
+    border: 1px solid rgb(199, 186, 186);
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#search_input_btn{
+    border: 1px solid rgb(199, 186, 186);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

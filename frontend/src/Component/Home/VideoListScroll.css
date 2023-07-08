@@ -1,0 +1,20 @@
+/* Hide scrollbar for Chrome, Safari, and Opera */
+#scroll_container::-webkit-scrollbar {
+    width: 0; /* adjust as needed */
+    background-color: transparent; /* set background color to match the container background */
+  }
+  
+  #scroll_container::-webkit-scrollbar-thumb {
+    background-color: transparent; /* set thumb color to match the container background */
+  }
+  
+  #scroll_container::-webkit-scrollbar-track {
+    background-color: transparent; /* set thumb color to match the container background */
+  }
+  
+
+  /* Hide scrollbar for Firefox */
+  #scroll_container{
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* set thumb and track color to match the container background */
+  }

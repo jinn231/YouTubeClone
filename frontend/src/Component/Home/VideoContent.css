@@ -1,0 +1,7 @@
+#video__menu {
+    opacity: 0;
+}
+
+#video__content_container:hover #video__menu {
+    opacity: 1;
+}

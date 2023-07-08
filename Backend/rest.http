@@ -1,0 +1,12 @@
+POST http://localhost:8080/api/auth/google
+Content-Type: application/json
+
+{
+    "name" : "Jack",
+    "email": "example332@gmail.com"
+}
+
+###
+
+PUT http://localhost:8080/api/user/like/64a1482ada9eff3a6240f8bf
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTdiNDkyNTZjMzM3OTExNDJlMDFkNyIsImlhdCI6MTY4ODcxMjMzOX0.jmTzDObfxtbaOKbKOH1tjgaYvLuUkzV-cNHvIrDifEg
